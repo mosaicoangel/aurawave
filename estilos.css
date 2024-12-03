@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; 
+    padding: 2rem; 
+}
+
+
+header {
+    background-color: #074775;
+    color: white;
+    text-align: center;
+    padding: 1.0em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 400px;
+    height: 200%;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.progress-bar {
+    width: 100%;
+    margin: 30px 0;
+}
+.project:hover {
+    background-color: #f0f0f0;
+}
+
+.progress {
+    background-color: #1c5a6d;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #074775;
+    color: white;
+    position: relative;
+}
+
